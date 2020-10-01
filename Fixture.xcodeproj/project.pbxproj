@@ -16,6 +16,8 @@
 		963FB64D25130193003103C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 963FB64B25130193003103C0 /* LaunchScreen.storyboard */; };
 		963FB65825130193003103C0 /* FixtureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FB65725130193003103C0 /* FixtureTests.swift */; };
 		963FB66325130193003103C0 /* FixtureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FB66225130193003103C0 /* FixtureUITests.swift */; };
+		968AAC742525529000DB8800 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AAC722525529000DB8800 /* TableViewCell.swift */; };
+		968AAC752525529000DB8800 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968AAC732525529000DB8800 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		963FB65E25130193003103C0 /* FixtureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixtureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		963FB66225130193003103C0 /* FixtureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureUITests.swift; sourceTree = "<group>"; };
 		963FB66425130193003103C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		968AAC722525529000DB8800 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		968AAC732525529000DB8800 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				963FB63F25130191003103C0 /* SceneDelegate.swift */,
 				963FB64125130191003103C0 /* ViewController.swift */,
 				963FB64325130191003103C0 /* Main.storyboard */,
+				968AAC722525529000DB8800 /* TableViewCell.swift */,
+				968AAC732525529000DB8800 /* TableViewCell.xib */,
 				963FB64925130193003103C0 /* Assets.xcassets */,
 				963FB64B25130193003103C0 /* LaunchScreen.storyboard */,
 				963FB64E25130193003103C0 /* Info.plist */,
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				963FB64D25130193003103C0 /* LaunchScreen.storyboard in Resources */,
+				968AAC752525529000DB8800 /* TableViewCell.xib in Resources */,
 				963FB64A25130193003103C0 /* Assets.xcassets in Resources */,
 				963FB64525130191003103C0 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968AAC742525529000DB8800 /* TableViewCell.swift in Sources */,
 				963FB64225130191003103C0 /* ViewController.swift in Sources */,
 				963FB63E25130190003103C0 /* AppDelegate.swift in Sources */,
 				963FB64025130191003103C0 /* SceneDelegate.swift in Sources */,
