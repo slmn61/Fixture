@@ -77,8 +77,10 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="away" destination="8Pa-hw-FTd" id="u0L-uT-AV9"/>
+                <outlet property="awayScore" destination="hYc-JG-KcT" id="0Wj-sT-MxE"/>
                 <outlet property="content" destination="H2p-sc-9uM" id="J6M-mW-Ug0"/>
                 <outlet property="home" destination="Yqs-aA-b9a" id="YmD-QQ-v6V"/>
+                <outlet property="homeScore" destination="uU9-aW-UWH" id="yNY-KU-q52"/>
             </connections>
             <point key="canvasLocation" x="72.463768115942031" y="143.30357142857142"/>
         </tableViewCell>

@@ -12,6 +12,8 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var home: UILabel!
     @IBOutlet weak var away: UILabel!
     @IBOutlet weak var content: UIView!
+    @IBOutlet weak var homeScore: UILabel!
+    @IBOutlet weak var awayScore: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

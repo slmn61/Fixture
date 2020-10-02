@@ -18,6 +18,7 @@
 		963FB66325130193003103C0 /* FixtureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FB66225130193003103C0 /* FixtureUITests.swift */; };
 		968AAC742525529000DB8800 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968AAC722525529000DB8800 /* TableViewCell.swift */; };
 		968AAC752525529000DB8800 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968AAC732525529000DB8800 /* TableViewCell.xib */; };
+		96D79DDA2526CA650006149E /* FixtureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D79DD92526CA650006149E /* FixtureData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		963FB66425130193003103C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968AAC722525529000DB8800 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		968AAC732525529000DB8800 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		96D79DD92526CA650006149E /* FixtureData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				963FB63D25130190003103C0 /* AppDelegate.swift */,
 				963FB63F25130191003103C0 /* SceneDelegate.swift */,
 				963FB64125130191003103C0 /* ViewController.swift */,
+				96D79DD92526CA650006149E /* FixtureData.swift */,
 				963FB64325130191003103C0 /* Main.storyboard */,
 				968AAC722525529000DB8800 /* TableViewCell.swift */,
 				968AAC732525529000DB8800 /* TableViewCell.xib */,
@@ -272,6 +275,7 @@
 				968AAC742525529000DB8800 /* TableViewCell.swift in Sources */,
 				963FB64225130191003103C0 /* ViewController.swift in Sources */,
 				963FB63E25130190003103C0 /* AppDelegate.swift in Sources */,
+				96D79DDA2526CA650006149E /* FixtureData.swift in Sources */,
 				963FB64025130191003103C0 /* SceneDelegate.swift in Sources */,
 				963FB64825130191003103C0 /* Fixture.xcdatamodeld in Sources */,
 			);
